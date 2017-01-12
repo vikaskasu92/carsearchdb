@@ -26,7 +26,7 @@
 							<select name="carType">
 								<option value="Sedan">Sedan</option>
 								<option value="Coupe">Coupe</option>
-								<option value="Coupe">Hatch</option>
+								<option value="Hatch">Hatch</option>
 								<option value="Convertible">Convertible</option>
 								<option value="SUV">SUV</option>
 								<option value="Crossover">Crossover</option>
