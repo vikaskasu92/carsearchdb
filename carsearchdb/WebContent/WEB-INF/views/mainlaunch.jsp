@@ -35,9 +35,6 @@
 							<option value="Coupe">Coupe</option>
 							<option value="Hatch">Hatch</option>
 							<option value="Convertible">Convertible</option>
-							<option value="SUV">SUV</option>
-							<option value="Crossover">Crossover</option>
-							<option value="StationWagon">Station Wagon</option>
 						</select>
 					</div>
 				</div>
