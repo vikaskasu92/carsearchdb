@@ -66,7 +66,7 @@
 											<label>Horse Power :</label>
 										</div>
 										<div class="col-xs-6">
-											<span>${uniqueListSelector.engineSpecification.brakeHorsePower}</span>
+											<span>${uniqueListSelector.engineSpecification.brakeHorsePower} hp</span>
 										</div>
 									</div>
 									<div class="row">
@@ -74,7 +74,7 @@
 											<label>Torque :</label>
 										</div>
 										<div class="col-xs-6">
-											<span>${uniqueListSelector.engineSpecification.torque}</span>
+											<span>${uniqueListSelector.engineSpecification.torque} ft/lb</span>
 										</div>
 									</div>
 									<div class="row">
@@ -82,7 +82,7 @@
 											<label>MPG City :</label>
 										</div>
 										<div class="col-xs-6">
-											<span>${uniqueListSelector.engineSpecification.milesPerGallonCity}</span>
+											<span>${uniqueListSelector.engineSpecification.milesPerGallonCity} mpg</span>
 										</div>
 									</div>
 									<div class="row">
@@ -90,7 +90,7 @@
 											<label>MPG FreeWay :</label>
 										</div>
 										<div class="col-xs-6">
-											<span>${uniqueListSelector.engineSpecification.milesPerGallonFreeWay}</span>
+											<span>${uniqueListSelector.engineSpecification.milesPerGallonFreeWay} mpg</span>
 										</div>
 									</div>
 									<div class="row">
@@ -182,7 +182,7 @@
 											<label>CarLength :</label>
 										</div>
 										<div class="col-xs-6">
-											<span>${uniqueListSelector.chassis.carLength}</span>
+											<span>${uniqueListSelector.chassis.carLength} Inches</span>
 										</div>
 									</div>
 									<div class="row">
@@ -190,7 +190,7 @@
 											<label>CarWidth :</label>
 										</div>
 										<div class="col-xs-6">
-											<span>${uniqueListSelector.chassis.carWidth}</span>
+											<span>${uniqueListSelector.chassis.carWidth} Inches</span>
 										</div>
 									</div>
 									<div class="row">
@@ -198,7 +198,7 @@
 											<label>WheelBase :</label>
 										</div>
 										<div class="col-xs-6">
-											<span>${uniqueListSelector.chassis.wheelBase}</span>
+											<span>${uniqueListSelector.chassis.wheelBase} Inches</span>
 										</div>
 									</div>
 								</div>
