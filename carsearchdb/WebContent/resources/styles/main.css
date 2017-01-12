@@ -1,0 +1,62 @@
+.circularMargin5{
+	margin:5px;
+}
+
+.paddingRight11{
+	padding-right:11px;
+}
+
+.displayResultsBorder{
+	margin: auto;
+    min-height: 100px;
+    border: 1px solid white;
+}
+
+.containerBackgroundColor{
+	background-color: whitesmoke;
+}
+
+#loadingModal, #loginModal{
+	top:35%;
+	outline:none;
+}
+
+.marginBot0{
+	margin-bottom:0px !important;
+}
+.paddingBottom20{
+	padding-bottom: 20px
+}
+
+.authentication{
+	font-style:"Courier New";
+}
+
+.padding50{
+	padding-bottom: 50px;
+}
+
+.width100{
+	width:100%;
+}
+
+.marginTop20{
+	margin-top: 20px;
+}
+
+.imageContent{
+	padding-left: 50px;
+    padding-right: 50px;
+}
+
+.paddingBottom100{
+	padding-bottom: 100px;
+}
+
+.backGroundImage  {
+    background-image: url("/resources/images/roadBackground.jpg");
+}
+
+.paddingOverall{
+	padding:10px;
+}

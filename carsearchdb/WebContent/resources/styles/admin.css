@@ -1,0 +1,16 @@
+.margin10{
+	margin:10px;
+}
+
+.margin5{
+	margin: 5px;
+}
+
+.floatLeft{
+	float:left;
+}
+
+.tableSizeControl{
+	height: 500px;
+ 	overflow-y: scroll;
+}
