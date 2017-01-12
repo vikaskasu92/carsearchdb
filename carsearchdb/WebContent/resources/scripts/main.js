@@ -710,10 +710,10 @@ CarInfo.main = {};
 			$("#alertMessage").text("Oh snap! Please do-not leave any fields empty and make sure you enter only numeric values other than zero for Minimum and Maximum ranges");
 			$("#alertMessageHider").removeClass("hide");
 		}else if(modelFlagZero === "true"){
-			$("#alertMessage").text("Oh snap! Zero is not allowed into the minimum and Maximum range fields");
+			$("#alertMessage").text("Oh snap! Zero or decimal values are not allowed in min and Max fields");
 			$("#alertMessageHider").removeClass("hide");
 		}else if(modelFlagNumeric === "true"){
-			$("#alertMessage").text("Oh snap! Please enter only numeric values other than zero into the minimum and Maximum range fields");
+			$("#alertMessage").text("Oh snap! Please enter only numeric values other than zero in min and Max fields");
 			$("#alertMessageHider").removeClass("hide");
 		}else if(modelFlagHighLow === "true"){
 			$("#alertMessage").text("Oh snap! Minimum Range values are more than Maximum Range values");
@@ -833,7 +833,7 @@ CarInfo.main = {};
 
 	module().formValidationZero = function(Id){
 		IdValue = $("#"+Id).val();
-		if(IdValue != "0"){
+		if(IdValue != "0" && IdValue.isInteger()){
 			return "false";
 		}else{
 			return "true";
