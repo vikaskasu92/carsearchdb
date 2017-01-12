@@ -129,8 +129,8 @@ public class OperationsDAOImpl implements OperationsDAO{
 			criteria.add(Restrictions.ge("price", minValueCategory1));
 			criteria.add(Restrictions.lt("price", maxValueCategory1));
 		}else if(searchCategory1.contains("milesPerGallonCity") && (minValueCategory1 != 0) && (maxValueCategory1 != 0)){
-			criteria.add(Restrictions.ge("milesPerGallonCity", minValueCategory1));
-			criteria.add(Restrictions.lt("milesPerGallonCity", maxValueCategory1));
+			criteria.add(Restrictions.ge("engineSpecification.milesPerGallonCity", minValueCategory1));
+			criteria.add(Restrictions.lt("engineSpecification.milesPerGallonCity", maxValueCategory1));
 		}
 		if(searchCategory2.contains("Horse") && (minValueCategory2 != 0) && (maxValueCategory2 != 0)){
 			criteria.add(Restrictions.ge("engineSpecification.brakeHorsePower", minValueCategory2));
@@ -139,8 +139,8 @@ public class OperationsDAOImpl implements OperationsDAO{
 			criteria.add(Restrictions. ge("price", minValueCategory2));
 			criteria.add(Restrictions.lt("price", maxValueCategory2));
 		}else if(searchCategory2.contains("milesPerGallonCity") && (minValueCategory2 != 0) && (maxValueCategory2 != 0)){
-			criteria.add(Restrictions.ge("milesPerGallonCity", minValueCategory2));
-			criteria.add(Restrictions.lt("milesPerGallonCity", maxValueCategory2));
+			criteria.add(Restrictions.ge("engineSpecification.milesPerGallonCity", minValueCategory2));
+			criteria.add(Restrictions.lt("engineSpecification.milesPerGallonCity", maxValueCategory2));
 		}
 		if(searchCategory3.contains("Horse") && (minValueCategory3 != 0) && (maxValueCategory3 != 0)){
 			criteria.add(Restrictions.ge("engineSpecification.brakeHorsePower", minValueCategory3));
@@ -149,8 +149,8 @@ public class OperationsDAOImpl implements OperationsDAO{
 			criteria.add(Restrictions.ge("price", minValueCategory3));
 			criteria.add(Restrictions.lt("price", maxValueCategory3));
 		}else if(searchCategory3.contains("milesPerGallonCity") && (minValueCategory3 != 0) && (maxValueCategory3 != 0)){
-			criteria.add(Restrictions.ge("milesPerGallonCity", minValueCategory3));
-			criteria.add(Restrictions.lt("milesPerGallonCity", maxValueCategory3));
+			criteria.add(Restrictions.ge("engineSpecification.milesPerGallonCity", minValueCategory3));
+			criteria.add(Restrictions.lt("engineSpecification.milesPerGallonCity", maxValueCategory3));
 		}
 		
 		criteria.setProjection(Projections.rowCount());
@@ -207,8 +207,8 @@ public class OperationsDAOImpl implements OperationsDAO{
 			criteria.add(Restrictions.ge("price", minValueCategory1));
 			criteria.add(Restrictions.lt("price", maxValueCategory1));
 		}else if(searchCategory1.contains("milesPerGallonCity") && (minValueCategory1 != 0) && (maxValueCategory1 != 0)){
-			criteria.add(Restrictions.ge("milesPerGallonCity", minValueCategory1));
-			criteria.add(Restrictions.lt("milesPerGallonCity", maxValueCategory1));
+			criteria.add(Restrictions.ge("engineSpecification.milesPerGallonCity", minValueCategory1));
+			criteria.add(Restrictions.lt("engineSpecification.milesPerGallonCity", maxValueCategory1));
 		}
 		if(searchCategory2.contains("Horse") && (minValueCategory2 != 0) && (maxValueCategory2 != 0)){
 			criteria.add(Restrictions.ge("engineSpecification.brakeHorsePower", minValueCategory2));
@@ -217,8 +217,8 @@ public class OperationsDAOImpl implements OperationsDAO{
 			criteria.add(Restrictions. ge("price", minValueCategory2));
 			criteria.add(Restrictions.lt("price", maxValueCategory2));
 		}else if(searchCategory2.contains("milesPerGallonCity") && (minValueCategory2 != 0) && (maxValueCategory2 != 0)){
-			criteria.add(Restrictions.ge("milesPerGallonCity", minValueCategory2));
-			criteria.add(Restrictions.lt("milesPerGallonCity", maxValueCategory2));
+			criteria.add(Restrictions.ge("engineSpecification.milesPerGallonCity", minValueCategory2));
+			criteria.add(Restrictions.lt("engineSpecification.milesPerGallonCity", maxValueCategory2));
 		}
 		if(searchCategory3.contains("Horse") && (minValueCategory3 != 0) && (maxValueCategory3 != 0)){
 			criteria.add(Restrictions.ge("engineSpecification.brakeHorsePower", minValueCategory3));
@@ -227,8 +227,8 @@ public class OperationsDAOImpl implements OperationsDAO{
 			criteria.add(Restrictions.ge("price", minValueCategory3));
 			criteria.add(Restrictions.lt("price", maxValueCategory3));
 		}else if(searchCategory3.contains("milesPerGallonCity") && (minValueCategory3 != 0) && (maxValueCategory3 != 0)){
-			criteria.add(Restrictions.ge("milesPerGallonCity", minValueCategory3));
-			criteria.add(Restrictions.lt("milesPerGallonCity", maxValueCategory3));
+			criteria.add(Restrictions.ge("engineSpecification.milesPerGallonCity", minValueCategory3));
+			criteria.add(Restrictions.lt("engineSpecification.milesPerGallonCity", maxValueCategory3));
 		}
 		
 		int pageNumber = (pageNo-1)*4;
