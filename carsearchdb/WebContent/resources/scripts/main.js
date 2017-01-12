@@ -145,7 +145,7 @@ CarInfo.main = {};
 					}else if(! $("#hPowerAndYear1").hasClass('hide')){
 						$("#hPowerAndYear1").addClass('hide');
 					}
-					if(dropDownOption1 === "Horse Power" || dropDownOption1 === "Model Year"){
+					if(dropDownOption1 === "Horse Power" || dropDownOption1 === "milesPerGallonCity"){
 						$("#hPowerAndYear1").removeClass('hide');
 					}else if(dropDownOption1 === "Price"){
 						$("#price1").removeClass('hide');
@@ -157,7 +157,7 @@ CarInfo.main = {};
 					}else if(! $("#hPowerAndYear1").hasClass('hide')){
 						$("#hPowerAndYear1").addClass('hide');
 					}
-					if(dropDownOption1 === "Horse Power" || dropDownOption1 === "Model Year"){
+					if(dropDownOption1 === "Horse Power" || dropDownOption1 === "milesPerGallonCity"){
 						$("#hPowerAndYear1").removeClass('hide');
 					}else if(dropDownOption1 === "Price"){
 						$("#price1").removeClass('hide');
@@ -175,7 +175,7 @@ CarInfo.main = {};
 							$("#hPowerAndYear2").addClass('hide');
 						}
 					}else if(dropDownOption2 != "Select One" && dropDownOption2 != ""){
-						if(dropDownOption2 === "Horse Power" || dropDownOption2 === "Model Year"){
+						if(dropDownOption2 === "Horse Power" || dropDownOption2 === "milesPerGallonCity"){
 							if(! $("#price2").hasClass('hide')){
 								$("#price2").addClass('hide');
 							}
@@ -198,7 +198,7 @@ CarInfo.main = {};
 							}
 						}
 						else if(dropDownOption3 != "Select One" && dropDownOption3 != ""){
-							if(dropDownOption3 === "Horse Power" || dropDownOption3 === "Model Year"){
+							if(dropDownOption3 === "Horse Power" || dropDownOption3 === "milesPerGallonCity"){
 								if(! $("#price3").hasClass('hide')){
 									$("#price3").addClass('hide');
 								}
