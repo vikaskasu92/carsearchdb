@@ -833,7 +833,7 @@ CarInfo.main = {};
 
 	module().formValidationZero = function(Id){
 		IdValue = $("#"+Id).val();
-		if(IdValue != "0" && IdValue.isInteger()){
+		if(IdValue != "0" && Math.floor(IdValue) == IdValue){
 			return "false";
 		}else{
 			return "true";
